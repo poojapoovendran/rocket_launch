@@ -105,7 +105,7 @@ public class RocketLaunchSimulator {
             }
         }
       
-        if (seconds<=30) {
+        if (seconds<=10) {
             System.out.println("Fast forward " + seconds + " seconds: Orbit achieved! Mission Successful.");
         } else {
             System.out.println("Fast forward " + seconds + " seconds: Mission Failed due to insufficient fuel.");
